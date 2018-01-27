@@ -2,7 +2,6 @@
 #define DICE_H
 
 
-
 class Dice {
 public:
 	Dice();
@@ -11,6 +10,14 @@ public:
 };
 
 
+class Computer {
+public:
+	Computer();
+	int alive;
+	int get_roll();
+};
+
+int player_roll();
 
 
 
